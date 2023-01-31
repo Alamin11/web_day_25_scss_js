@@ -25,9 +25,17 @@ console.log(values);
 
 // printing all the keys of car object using loop
 for (var i = 0; i < properties.length; i++) {
-    console.log(properties[i]);
+    var propertyName = properties[i];
+    // console.log(propertyName);
+    // printing all the values of car object using loop
+    var propertyValue = car[propertyName];
+    // console.log(propertyValue);
+
+    console.log(propertyName, propertyValue);
+
+
 }
 // printing all the values of car object using loop
-for (var i = 0; i < values.length; i++) {
-    console.log(values[i]);
-}
+// for (var i = 0; i < values.length; i++) {
+//     console.log(values[i]);
+// }
